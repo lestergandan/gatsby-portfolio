@@ -53,8 +53,7 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cobidev/gatsby-simplefolio
-
+$ git clone https://github.com/lestergandan/gatsby-portfolio
 # Go into the repository
 $ cd gatsby-simplefolio
 
@@ -95,7 +94,7 @@ $ sudo npm install --unsafe-perm=true --allow-root
 Once your server has started, go to this url `http://localhost:8000/` and you will see the website running on a Development Server:
 
 <h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Gatsby Simplefolio" width="100%">
+  <img src="https://github.com/lestergandan/gatsby-portfolio/blob/master/examples/example.png" alt="Gatsby Simplefolio" width="100%">
 </h2>
 
 ---
@@ -111,7 +110,7 @@ Go to `/src/mock/data.js` and fill your information, they are 5 objects:
 ```javascript
 export const heroData = {
   title: '', // Hello, my name is
-  name: '', // John
+  name: '', // Gandan
   subtitle: '', // I'm the Unknown Developer.
   cta: '', // Know more
 };
@@ -146,7 +145,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/lestergandan/gatsby-portfolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -155,7 +154,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/lestergandan/gatsby-portfolio', // if no repo, the button will not show up
   },
   ...
 ];
@@ -236,11 +235,6 @@ Once you have done with your setup. You need to put your website online!
 
 I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
 
-## Others versions 👥
-
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
 ## Technologies used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
@@ -251,7 +245,7 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Authors
 
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- **Lester Gandan** - [https://github.com/lestergandan](https://github.com/lestergandan)
 
 ## Status
 
@@ -260,7 +254,3 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments 🎁
-
-I was motivated to create this project because I wanted to contribute on something useful for the dev community, thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
